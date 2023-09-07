@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Lucky Gary">
+        <meta name="description" content="Registreation page for mavicity university">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <title>Sign Up</title>
+
+        <style>
+html{
+    color: #4b4949;
+    background-color: #cccccc;
+}
+
+.logo-mvu{
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+    background-color: #e2dede;
+    font-size: 20px;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(66, 113, 244);
+}
+
+
+.text-box{
+    padding-bottom: 2px;
+    background-color: #e2dede;
+}
+
+.create{
+    text-align: center;
+    padding-top: 25px;
+}
+.ind-ol{
+    margin-left: 20px;
+    font-size: x-small;
+}
+.form-ol{
+    margin: 30px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    background-color: #e2dede;
+    border-color:#cccccc;
+}
+
+select{
+    width: 30%;
+}
+
+.privacy{
+    font-size: 12px;
+}
+.privacy a{
+    color: rgb(66, 113, 244);
+    text-decoration: none;
+}
+.reg{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(66, 113, 244);
+    border-radius: 20px;
+}
+
+.reg a{
+    text-decoration: none;
+    color: #e2dede;
+}
+.btl a{
+    color: rgb(66, 113, 244);
+    text-decoration: none;
+}
+
+
+footer{
+    text-align: center;
+
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+footer ul li a{
+    color: rgb(66, 113, 244);
+    text-decoration: none;
+     font-size: 12px;
+}
+
+footer p{
+    color: rgb(66, 113, 244);
+    font-size: 12px;
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <article class="text-box">
+            <p class="logo-mvu">MVUniversity</p>
+            <div class="create">
+                <p>Create Account</p>
+            </div>
+            <div class="ind-ol"><p>*indicates required field</p>
+            </div>
+            <section class="form-ol">
+                <form action="">
+                <p>
+                    <label for="email">Email*</label>
+                    <input type="text" name="email" id="email" placeholder="Email*" autocomplete="on">
+                </p>
+                <p>
+                    <label for="password">Password*</label>
+                    <input type="password" name="password" id="password" placeholder="Password*" autocomplete="on">
+                </p>
+                <p>
+                    <label for="firstName">First name*</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First name*" autocomplete="on">
+                </p>
+                <p>
+                    <label for="lastName">Last name*</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last name*" autocomplete="on">
+                </p>
+                <label>Country or region*</label>
+                <select name="country" id="country">
+                    <option value="england">England</option>
+                    <option value="canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="russia">Russia</option>
+                    <option value="india">India</option>
+                    <option value="korea">Korea</option>
+                    <option value="china">China</option>
+                    <option value="polland">Polland</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </form>
+            <div class="privacy">
+                <p>By clicking Sign up, I confirm that I have read and agree to the <a href="">Mavicity Online Privacy Statement</a> and the <a href="">Mavicity  Web Site Terms and Conditions.</a></p>
+            </div>
+            <p class="reg">
+                <a href="">Sign up</a>
+            </p>
+
+            <!--btl = back to login--->
+
+            <p class="btl"><a href="">Back to log in</a></p>
+            <p class="btl"><a href="../index.html">Home</a></p>
+        </section>
+        </article>
+        <footer>
+            <ul>
+                <li><a href="">Contact support</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Trademarks</a></li>
+            </ul>
+            <p>
+                Copyright &copy; 2023
+            </p>
+        </footer>
+    </body>
+</html>
